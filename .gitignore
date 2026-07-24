@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training artifacts (push weights to the HF Hub, not git)
+checkpoint-*/
+runs/
+wandb/
+*.log
+
+# OS
+.DS_Store
